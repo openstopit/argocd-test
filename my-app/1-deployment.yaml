@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: tomnvc/nginx:v0.1.0
+          image: bitnami/nginx:latest
           ports:
             - containerPort: 80
